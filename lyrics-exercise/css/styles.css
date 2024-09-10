@@ -1,0 +1,46 @@
+html{
+    background-image: url(../images/pexels-lorena-silaj-328303372-17221310.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+@font-face {
+    font-family: 'Copenhagen';
+    src: url(../fonts/copenhagen-font/Copenhagen-z3Z0.ttf);
+}
+
+.maintitle {
+    color:white;
+    text-align: center;
+    font-family: 'Copenhagen';
+    font-size: 100px;
+    line-height: 0;
+}
+
+.music {
+    text-align: center;
+}
+
+.secondtitle {
+    color:white;
+    text-align: center;
+    font-family:'Copenhagen';
+    font-size: 50px;
+    line-height: 0.15;
+}
+
+.lyrics {
+    line-height: 1;
+    color:white;
+    text-align: center;
+    font-family:'Trebuchet MS', sans-serif;
+}
+
+.footer {
+    color:white;
+    text-align: center;
+    font-family:'Trebuchet MS', sans-serif;
+    font-size: 12px;
+}
+
