@@ -1,0 +1,108 @@
+html {
+    color:black;
+    font-family: "Raleway", sans-serif;
+    font-size: 18pt;
+    margin: 8%;
+  }
+
+  div {
+    margin-top: -8%;
+  }
+
+  h1 {
+    font-size: 28pt;
+    font-weight: 700;
+  }
+
+  h2 {
+    font-size: 18pt;
+    font-weight:300;
+    line-height:1.5em;
+    color:darkgrey;
+  }
+
+  section {
+    margin: 2em 0;
+  }
+  
+  h3 {
+    font-size: 20pt;
+    font-weight:600;
+    line-height: 0.8;
+    color: palevioletred;
+  }
+
+  h4 {
+    font-size: 12pt;
+    font-weight: 400;
+    color: darkgray;
+    line-height: 0.5;
+  }
+
+  p {
+    line-height: 0.8;
+  }
+
+  .weightnormal {
+    font-weight:400;
+  }
+
+  .weightbold {
+    font-weight:700;
+  }
+
+  .weightthin {
+    font-weight:100;
+  }
+
+  .stylenormal {
+    font-style: normal;
+  }
+
+  .styleitalic {
+    font-style: italic;
+  }
+
+  .lsnormal {
+    letter-spacing: normal;
+  }
+
+  .lswide {
+    letter-spacing: 0.08em;
+  }
+
+  .lstight {
+    letter-spacing: -0.08em;
+  }
+
+  .tdnone {
+    text-decoration: none;
+  }
+
+  .tdunderline {
+    text-decoration: underline;
+  }
+  
+  .tdlinethrough {
+    text-decoration:line-through;
+  }
+
+  .tdoverline {
+    text-decoration:overline;
+  }
+
+  .ttnone {
+    text-transform: none;
+  }
+
+  .ttupper {
+    text-transform: uppercase;
+  }
+  
+  .ttlower {
+    text-transform: lowercase;
+  }
+
+  .ttcap {
+    text-transform: capitalize;
+  }
