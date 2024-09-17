@@ -1,0 +1,54 @@
+html {
+    color:black;
+    background-color: rgb(243, 237, 230);
+    font-size: 14pt;
+    font-family: "Nerko One", cursive;
+    font-family: "Lato", sans-serif;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+br {
+    display: block;
+    content: "";
+    margin-top: 2em;
+}
+
+h1 {
+    font-size: 45pt;
+    font-family: "Nerko One", cursive;
+    color:rgb(194, 27, 27);
+    text-align: center;
+  }
+
+h2 {
+    font-size: 24pt;
+    font-weight: 400;
+    font-family: "Nerko One", cursive;
+    color:rgb(95, 145, 95);
+}
+
+h3 {
+    font-size: 16pt;
+    font-weight:500;
+}
+
+a {
+    font-size: 12pt;
+    font-weight: 300;
+    font-family: "Lato", sans-serif;
+    color: rgb(194, 27, 27);
+}
+
+p {
+    font-size: 12pt;
+    font-weight: 300;
+    font-family: "Lato", sans-serif;
+}
+
+img {
+    height: 35%;
+    width: 35%
+}
+
+
