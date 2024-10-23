@@ -1,0 +1,355 @@
+html {
+    font-family: "Libre Baskerville", sans-serif;
+}
+
+html body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: rgb(255, 250, 235);
+    color: rgb(184, 8, 2);
+}
+
+@media (max-width:500px) {
+    header {
+    padding-top: 75px;
+    padding-bottom: 75px;
+    }
+}
+
+h1 {
+    font-size: 60px;
+    margin: 0 0 16px 0;
+    line-height: 1;
+}
+
+@media (max-width:800px) {
+    h1 {
+        font-size: 40px;
+    }
+}
+
+@media (max-width:500px) {
+    h1 {
+        font-size: 25px;
+    }
+}
+
+h2 {
+    font-size: 30px;
+    margin: 0;
+    padding: 20px 0 0 0;
+    line-height: 1;
+    color: rgb(103, 130, 89);
+}
+
+@media (max-width:800px) {
+    h2 {
+        font-size: 30px;
+        padding: 15px 0 0 0;
+    }
+}
+
+@media (max-width:500px) {
+    h2 {
+        font-size: 18px;
+        padding: 5px 0 0 0;
+    }
+}
+
+section > div{
+    width: 60%;
+    margin: auto;
+}
+
+/* DESCRIPTION SECTION */
+
+.description {
+    background-color: rgb(103, 130, 89);
+}
+
+h3 {
+    font-size: 16px;
+    margin: 0;
+    padding: 3em 0 0 0;
+    line-height: 1.2;
+    font-weight: 200;
+    text-align: center;
+    color: rgb(255, 250, 235);
+}
+
+@media (max-width:800px) {
+    h3 {
+        font-size: 14px;
+    }
+}
+
+@media (max-width:500px) {
+    h3 {
+        font-size: 12px;
+    }
+}
+
+h4 {
+    font-size: 16px;
+    margin: 0;
+    padding: 1.5em 0 3em 0;
+    line-height: 1.2;
+    font-weight: 200;
+    text-align: center;
+    color: rgb(255, 250, 235);
+}
+
+@media (max-width:800px) {
+    h4 {
+        font-size: 14px;
+    }
+}
+
+@media (max-width:500px) {
+    h4 {
+        font-size: 12px;
+    }
+}
+
+/* INGREDIENTS SECTION */
+
+.ing {
+    background-color: rgb(255, 250, 235);
+    padding: 3em 0 3em 0 ;
+}
+
+.grid1 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    column-gap: 50px;
+}
+
+.text1 {
+    flex: 1;
+}
+
+.image1 {
+    flex: 2;
+    padding-bottom: 1.5em;
+}
+
+ul {
+    margin: 0;
+    padding-left: 0;
+    list-style: none;
+}
+
+h5 {
+    margin:0;
+    font-size: 16px;
+    margin: 0;
+    line-height: 1.2;
+    font-weight: 200;
+    color: rgb(103, 130, 89);
+}
+
+@media (max-width:500px) {
+    h5 {
+        font-size: 14px;
+    }
+}
+
+p {
+    font-size: 14px;
+    color: rgb(103, 130, 89);
+    padding: 0;
+}
+
+@media (max-width:500px) {
+    p {
+        font-size: 12px;
+    }
+}
+
+.image1 img {
+    max-width: 100%;
+    min-width: 200px;
+    height:auto;
+    border: 2px solid rgb(103, 130, 89);
+}
+
+@media (max-width:1000px) {
+    .grid1 {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+/* INSTRUCTIONS SECTION */
+
+.instruct {
+    background-color: rgb(103, 130, 89);
+    padding: 3em 0 3em 0 ;
+}
+
+h6 {
+    padding: 0;
+    margin: 0;
+    font-size: 28px;
+    text-align: center;
+    color: rgb(255, 250, 235);
+}
+
+@media (max-width:500px) {
+    h6 {
+        font-size: 22px;
+    }
+}
+
+.itemtext p {
+    font-size: 18px;
+    color: rgb(255, 250, 235);
+    padding: 0 0 1.5em 0;
+    margin: 0;
+}
+
+@media (max-width:1000px) {
+    .itemtext p {
+        font-size: 16px;
+    }
+}
+
+@media (max-width:500px) {
+    .itemtext p {
+        font-size: 14px;
+    }
+}
+
+.grid2 img {
+    max-width: 100%;
+    min-width: 200px;
+    max-width: 500px;
+    object-fit: cover;
+    height:auto;
+    border: 2px solid rgb(255, 250, 235);
+}
+
+@media (max-width:1200px) {
+    .grid2 img {
+        max-width: 250px;
+    }
+}
+
+.grid2 {
+    padding-top: 2em;
+}
+
+.item {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    column-gap: 50px;
+}
+
+.itemtext {
+    flex: 1;
+}
+
+.itemimg {
+    flex: 1;
+    padding-bottom: 1.5em;
+}
+
+@media (max-width:1200px) {
+    .item {
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+
+/* FAQ SECTION */
+
+.faq {
+    background-color: rgb(255, 250, 235);
+    padding: 3em 0 3em 0 ;
+}
+
+.faq h6 {
+    text-align: center;
+    color: rgb(103, 130, 89);
+}
+
+@media (max-width:500px) {
+    .faq h6 {
+        font-size: 22px;
+    }
+}
+
+.faq p {
+    font-size: 16px;
+}
+
+@media (max-width:800px) {
+    .faq p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width:500px) {
+    .faq p {
+        font-size: 12px;
+    }
+}
+
+.faqtext {
+    padding-top: 1em;
+    text-align: center;
+}
+
+.question {
+    font-weight: 600;
+}
+
+.answer {
+    padding-bottom: 1.5em;
+}
+
+/* FOOTER */
+
+.footer {
+    background-color: rgb(103, 130, 89);
+    padding: 3em 0 3em 0 ;
+}
+
+.foottext {
+    color: rgb(255, 250, 235);
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    font-size: 14px;
+}
+
+@media (max-width:800px) {
+    .foottext {
+        font-size: 12px;
+    }
+}
+
+@media (max-width:500px) {
+    .foottext {
+        font-size: 10px;
+    }
+}
+
+a {
+    color: rgb(255, 250, 235);
+}
+
+a:hover {
+    color: rgb(184, 8, 2);
+}
