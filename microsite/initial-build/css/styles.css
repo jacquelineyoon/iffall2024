@@ -1,0 +1,113 @@
+html {
+    background-image: linear-gradient(#8ACE00,black);
+    background-repeat: no-repeat;
+    background-size: 10000px 7000px;
+
+    scroll-behavior: smooth;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+/* BRAT */
+h1 {
+    font-family: "Arial";
+    color: transparent;
+    text-shadow: 0 0 4px rgb(0, 0, 0);
+    text-align: center;
+    font-size: 57vw;
+    margin: -10vw 0 0 -5vw;
+    overflow: hidden;
+    font-stretch: extra-condensed;
+}
+
+/* CHARLIE XCX */
+h2 {
+    font-family: "Russo One";
+    color: transparent;
+    text-shadow: 0 0 2px rgb(255, 255, 255);
+    margin: -10vw 0 0 0;
+    font-size: 5vw;
+}
+
+.name {
+    display: flex;
+    justify-content: center;
+    gap: 75vw;
+}
+.charlie .xcx{
+    padding-top: -20vw;
+}
+
+/* NAV */
+.nav ul{
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 3vw;
+    padding-right: 2vw;
+    padding-top: 10vw;
+}
+
+.nav li a{
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    color: #415f05;
+    font-family: "Arimo";
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 2.5vw;
+}
+
+.nav li a:hover {
+    color: #223006;
+    transform: scale(1.15);
+}
+
+.nav .about {
+    color: #223006;
+    font-family: "Arimo";
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 3vw;
+    padding-right: 22vw;
+}
+
+/* TEXT */
+
+p {
+    color: white;
+    font-family: "Arimo";
+    padding: 2vw;
+    padding-bottom: 2vw;
+    width: 60vw;
+}
+
+h3 {
+    color: #223006;
+    font-family: "Arimo";
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 3vw;
+    padding-left: 2vw;
+}
+
+.fa-apple-whole {
+    position: fixed;
+    bottom: 2vw;
+    right: 2vw;
+    color:#9ae10b;
+    font-size: 3vw;
+    cursor: pointer;
+}
+
+.fa-apple-whole:hover {
+    color: black;
+    transform: scale(1.2);
+}
