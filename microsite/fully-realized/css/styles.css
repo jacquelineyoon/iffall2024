@@ -1,0 +1,260 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+
+    background-image: linear-gradient(#8ACE00,black);
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+}
+
+/* TITLE SCREEN*/
+
+.titlescreen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 101vh;
+    position: relative;
+    flex-direction: column;
+    margin: 0;
+    overflow: hidden;
+}
+
+h1 a{
+    font-size: 57vw;
+    margin: 0;
+    font-family: "Arial";
+    color: transparent;
+    text-shadow: 0 0 0.3vw rgb(0, 0, 0);
+    white-space: nowrap;
+    line-height: 0.8;
+    text-decoration: none;
+}
+
+h1 a:hover {
+    color: transparent;
+    text-shadow: 1px 1px 5px #8ACE00, 0 0 5px; 
+}
+
+.name {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0;
+    padding-bottom: 0;
+    color: transparent;
+    text-shadow: 0 0 0.2vw rgb(255, 255, 255);
+}
+
+.name h2 {
+    font-size: 7vw;
+    margin: 0;
+    font-family: "Russo One";
+}
+
+h2.charli {
+    text-align: left;
+    flex: 1;
+}
+
+h2.xcx {
+    text-align: right;
+    flex: 1;
+}
+
+/* CONTENT */
+
+.content {
+    display: flex;
+    min-height: 100vh;
+    position: relative;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin: 0;
+    padding-top: 8vw;
+    overflow: hidden;
+}
+
+p {
+    color: white;
+    font-family: "Arimo";
+    width: 50vw;
+    font-size: 18px;
+}
+
+@media (max-width: 900px) {
+    p {
+        font-size: 22px;
+    }
+}
+
+@media (min-width: 600px) {
+    p {
+        font-size: 18px;
+    }
+}
+
+@media (max-width:600px) {
+    p {
+        font-size: 16px;
+        width: 78vw;
+    }
+}
+
+.tabs a {
+    color: transparent;
+    text-shadow: 0 0 0.1vw rgb(255, 255, 255);
+    font-family: "Arimo";
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 3vw;
+}
+
+/* TABS */
+.tabs {
+    width: 100vw;
+    background-color: transparent;
+  }
+
+  ul#tabs-nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2vw;
+    gap: 5vw;
+  }
+
+  ul#tabs-nav li {
+    float: left;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+  }
+
+  #tabs-nav li a {
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-shadow: 0 0 0.1vw #416002;
+  }
+
+  a:focus {
+    text-shadow: 0 0 0.1vw #416002;
+  }
+
+#tabs-content{
+    display: inline-block;
+    padding-left: 11vw;
+  }
+
+@media (max-width: 600px) {
+    ul#tabs-nav {
+        flex-direction: column;
+        gap: 1vw;
+    }
+    
+    ul#tabs-nav li {
+        padding: 0 10px; 
+    }
+
+    #tabs-nav li a {
+        font-size: 22px;
+      }
+}
+
+/* SONGS */
+
+.songs {
+    text-decoration: none;
+    list-style-type: none;
+    width: 78vw;
+    height: 10vw;
+    padding: 0;
+}
+
+.songs li{
+    padding-bottom: 1vw;
+}
+
+/* IMAGE */
+
+img {
+    width: 128vw;
+    height: 100vw;
+    object-fit: cover;
+    opacity: 0.7;
+    top: 3vh;
+    position: absolute;
+    z-index: -1;
+}
+
+
+@media (max-width:600px) {
+    img {
+        width: 200vw;
+        height: 150vw;
+        left: -170px;
+    }
+}
+
+@media (min-width:1000px) {
+    img {
+        padding-left: 20px;
+    }
+}
+
+/* FOOTER */
+.footer {
+    background-color: transparent;
+}
+
+#footnav {
+    background-color: transparent;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 3vw;
+    list-style-type: none;
+    font-family: "Russo One";
+}
+
+ul#footnav{
+    justify-content: center;
+    align-items: center;
+}
+
+#footnav a{
+    color: transparent;
+    text-shadow: 0 0 0.05vw rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+#footnav a:hover {
+    color: transparent;
+    text-shadow: 0 0 0.1vw #8ACE00;
+}
+
+@media (max-width:1500px) {
+    #footnav {
+        font-size: 18px;
+    }
+}
+
+@media (max-width:700px) {
+    #footnav {
+        font-size: 14px;
+        padding-left:0;
+    }
+}
+
