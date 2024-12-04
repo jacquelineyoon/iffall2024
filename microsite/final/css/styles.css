@@ -1,0 +1,378 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+
+    background-image: linear-gradient(#8ACE00,black);
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+}
+
+/* TITLE SCREEN*/
+
+.titlescreen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 101vh;
+    position: relative;
+    flex-direction: column;
+    margin: 0;
+    overflow: hidden;
+}
+
+h1 a{
+    font-size: 57vw;
+    margin: 0;
+    font-family: "Arial";
+    color: transparent;
+    text-shadow: 0 0 0.3vw rgb(0, 0, 0);
+    white-space: nowrap;
+    line-height: 0.6;
+    text-decoration: none;
+}
+
+h1 a:hover {
+    color: transparent;
+    text-shadow: 1px 1px 5px #8ACE00, 0 0 5px; 
+}
+
+.name {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0;
+    padding-bottom: 0;
+    color: transparent;
+    text-shadow: 0 0 0.2vw rgb(255, 255, 255);
+}
+
+.name h2 {
+    font-size: 7vw;
+    margin: 0;
+    font-family: "Russo One";
+}
+
+h2.charli {
+    text-align: left;
+    flex: 1;
+}
+
+h2.xcx {
+    text-align: right;
+    flex: 1;
+}
+
+/* CONTENT */
+
+.content {
+    display: flex;
+    min-height: 100vh;
+    position: relative;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin: 0;
+    padding-top: 8vw;
+    overflow: hidden;
+}
+
+p {
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 0px 5px rgba(137, 206, 0, 0.7);
+    font-family: "Ubuntu";
+    font-weight: 400;
+    width: 50vw;
+    font-size: 20px;
+    line-height: 1.5em;
+}
+
+@media (min-width: 1600px) {
+    p {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 1600px) {
+    p {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 1200px) {
+    p {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 1000px) {
+    p {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 800px) {
+    p {
+        font-size: 16px;
+    }
+}
+
+@media (max-width:700px) {
+    p {
+        font-size: 16px;
+        width: 80vw;
+        padding-top: 25px;
+    }
+}
+
+/* TABS */
+
+.tabs a {
+    color: transparent;
+    text-shadow: 0 0 0.1vw rgb(255, 255, 255);
+    font-family: "Russo One";
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 2.845vw;
+}
+
+.tabs {
+    width: 100vw;
+    background-color: transparent;
+  }
+
+  ul#tabs-nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2vw;
+    gap: 5vw;
+  }
+
+  ul#tabs-nav li {
+    float: left;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+  }
+
+  #tabs-nav li a {
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-shadow: 0 0 0.1vw #1c2a00;
+  }
+
+  a:focus {
+    text-shadow: 0 0 0.1vw #1c2a00;
+  }
+
+#tabs-content{
+    display: inline-block;
+    padding-left: 11vw;
+  }
+
+@media (max-width: 700px) {
+    ul#tabs-nav {
+        flex-direction: column;
+        gap: 1vw;
+    }
+    
+    ul#tabs-nav li {
+        padding: 0 10px; 
+    }
+
+    #tabs-nav li a {
+        font-size: 26px;
+      }
+}
+
+@media (max-width: 500px) {
+    #tabs-nav li a {
+        font-size: 24px;
+      }
+}
+
+/* SONGS */
+
+.songs {
+    text-decoration: none;
+    list-style-type: none;
+    width: 78vw;
+    height: 10vw;
+    padding: 0;
+}
+
+.songs li{
+    padding-bottom: 1vw;
+}
+
+/* IMAGE */
+
+img {
+    aspect-ratio: 1569 / 1325;
+    width: 100vw;
+    opacity: 0.6;
+    top: 3vh;
+    position: absolute;
+    z-index: -1;
+}
+
+@media (min-width: 1500px) {
+    img {
+        width: 80vw;
+        left: 10vw;
+        top: 5vw;
+    }
+}
+
+@media (max-width: 1500px) {
+    img {
+        width: 80vw;
+        left: 10vw;
+        top: 6vw;
+    }
+}
+
+@media (max-width:1200px) {
+    img {
+        width: 107vw;
+        left: -3vw;
+        top: 14vw;
+    }
+}
+
+@media (max-width:700px) {
+    img {
+        width: 107vw;
+        left: -3vw;
+        top: 10vw;
+    }
+}
+
+/* FOOTER */
+.footer {
+    background-color: transparent;
+}
+
+#footnav {
+    background-color: transparent;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 3vw;
+    list-style-type: none;
+    font-family: "Russo One";
+    padding-left:0;
+}
+
+ul#footnav{
+    justify-content: center;
+    align-items: center;
+}
+
+#footnav a{
+    color: transparent;
+    text-shadow: 0 0 0.11vw rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+#footnav a:hover {
+    color: transparent;
+    text-shadow: 0 0 0.11vw #8ACE00;
+}
+
+@media (max-width:2000px) {
+    #footnav {
+        font-size: 20px;
+    }
+
+    #footnav a{
+        color: transparent;
+        text-shadow: 0 0 0.08vw rgb(255, 255, 255);
+        text-decoration: none;
+    }
+    
+    #footnav a:hover {
+        color: transparent;
+        text-shadow: 0 0 0.08vw #8ACE00;
+    }
+}
+
+@media (max-width:1500px) {
+    #footnav {
+        font-size: 20px;
+    }
+
+    #footnav a{
+        color: transparent;
+        text-shadow: 0 0 0.11vw rgb(255, 255, 255);
+        text-decoration: none;
+    }
+    
+    #footnav a:hover {
+        color: transparent;
+        text-shadow: 0 0 0.11vw #8ACE00;
+    }
+}
+
+@media (max-width:1300px) {
+    #footnav {
+        font-size: 20px;
+    }
+
+    #footnav a{
+        color: transparent;
+        text-shadow: 0 0 0.12vw rgb(255, 255, 255);
+        text-decoration: none;
+    }
+    
+    #footnav a:hover {
+        color: transparent;
+        text-shadow: 0 0 0.12vw #8ACE00;
+    }
+}
+
+@media (max-width:1000px) {
+    #footnav {
+        font-size: 18px;
+    }
+
+    #footnav a{
+        color: transparent;
+        text-shadow: 0 0 0.13vw rgb(255, 255, 255);
+        text-decoration: none;
+    }
+    
+    #footnav a:hover {
+        color: transparent;
+        text-shadow: 0 0 0.13vw #8ACE00;
+    }
+}
+
+@media (max-width:700px) {
+    #footnav {
+        font-size: 16px;
+    }
+
+    #footnav a{
+        color: transparent;
+        text-shadow: 0 0 0.15vw rgb(255, 255, 255);
+        text-decoration: none;
+    }
+    
+    #footnav a:hover {
+        color: transparent;
+        text-shadow: 0 0 0.15vw #8ACE00;
+    }
+}
+
